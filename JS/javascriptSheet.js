@@ -7,8 +7,7 @@ $(document).ready(function() {
 				$("#formacion").text(value.formacion);
 				$("#curso1").text(value.curso1);
 				$("#curso2").text(value.curso2);
-				$("#exp1").text(value.exp1);
-				$("#exp2").text(value.exp2);
+				$("#curso3").text(value.curso3);
 			});
 		});
 	});
@@ -21,8 +20,7 @@ $(document).ready(function() {
 				$("#formacion").text(value.formacion);
 				$("#curso1").text(value.curso1);
 				$("#curso2").text(value.curso2);
-				$("#exp1").text(value.exp1);
-				$("#exp2").text(value.exp2);
+				$("#curso3").text(value.curso3);
 			});
 		});
 	});
