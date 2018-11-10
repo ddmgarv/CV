@@ -5,17 +5,19 @@ span{
 	color: #00BFFF;
 }
 
-@media only screen and (max-width: 600px){ /* For phones */
+@media only screen and (max-width: 599px){ /* For phones */
+	.flex-container{
+		display: flex;
+		flex-direction: column;
+	}
 	#cuadroAzul{
-		width: 40%;
-		height: 100vh;
 		background-image: linear-gradient(to bottom, #000080, #00BFFF);
-		font-size: ;
 		color: #fff;
 		word-wrap: break-word;
-		float: left;
 		border-radius: 5px;
-		font-size: 4vw;
+		font-size: 3.8vw;
+		width: 90%
+		margin: 5%;
 	}
 	#fotoPerfil{
 		width: 90%;
@@ -27,16 +29,15 @@ span{
 		list-style-type:none;
 	}
 	.barras{
-		width: 85%;
+		width: 70%;
 	}
 	.icono{
-		width: 15%;
+		width: 10%;
 	}
 	#contenidoPrincipal{
-		float: left;
-		width: 60%;
 		padding-left: 2.5%;
-		font-size: 2.8vw;
+		font-size: 3.8vw;
+		word-wrap: break-word;
 	}
 	h3,h4{
 		text-align: center;
@@ -45,7 +46,7 @@ span{
 		width: 17.5%;
 	}
 }
-@media only screen and (max-width: 1000px){ /* For tablets */
+@media only screen and (min-width: 600px){ /* For tablets */
 	#cuadroAzul{
 		width: 40%;
 		height: 100vh;
@@ -76,12 +77,13 @@ span{
 		width: 60%;
 		padding-left: 2.5%;
 		font-size: 2.2vw;
+		word-wrap: break-word;
 	}
 	h3,h4{
 		text-align: center;
 	}
 }
-@media only screen and (min-width: 1001px){ /* For desktop */
+@media only screen and (min-width: 1000px){ /* For desktop */
 	#cuadroAzul{
 		width: 20%;
 		height: 100vh;
@@ -117,4 +119,5 @@ span{
 		text-align: center;
 	}
 }
+
 
