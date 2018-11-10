@@ -1,2 +1,12 @@
-[{"estudios":"Estudios de bachiller cursados en la U.E Colegio Don Bosco, actualmente estudiando ingeniería en computación en la Universidad De Oriente(UDO).","objetivo":"Mi objetivo es ganar experiencia laboral trabajando en el campo de la programación web y posteriormente en la programación de videojuegos.","formacion":"2014 - Bachiller graduado del colegio: U.E Colegio Don Bosco."},{"curso1":"2012 - Animaciones en 3D usando el software de gráficos por computadora Blender(20h).","curso2":"2018 - Aspectos Básicos de HTML5 para creación de páginas web(10h)."},{"exp1":"2015 - Contrato de dos meses como profesor de inglés en el colegio: U.E Colegio Manuel Plácido Maneiro.","exp2":"2017 - Contrato de ocho meses como técnico en Chevron para la instalación y mantenimiento de equipos de seguridad."}]
-
+[
+  {
+    "estudios": "Estudios de bachiller cursados en la U.E Colegio Don Bosco, actualmente estudiando ingeniería en computación en la Universidad De Oriente(UDO).",
+    "objetivo": "Mi objetivo es ganar experiencia laboral trabajando en el campo de la programación web y posteriormente en la programación de videojuegos.",
+    "formacion": "2014 - Bachiller graduado del colegio: U.E Colegio Don Bosco."
+  },
+  {
+    "curso1": "2018 - Learn HTML5 Programming From Scratch(10.5h) - Eduonix Learning Solutions.",
+    "curso2": "2018 - CSS para principiantes, Tus proyectos toman vida(3h) - Daniel Fernandez Velazquez.",
+    "curso3": "2018 - JavaScript: de cero hasta los detalles(8h) - Fernando Herrera Analista de Sistemas y Desarrollador Web."
+  }
+]
