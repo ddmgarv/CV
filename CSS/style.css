@@ -1,5 +1,6 @@
 *{	
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 span{
 	color: #00BFFF;
@@ -21,7 +22,7 @@ span{
 	}
 	#fotoPerfil{
 		width: 55%;
-		height: 10%;
+		height: 7.5%;
 		border-radius: 5px;
 		display: block;
 		margin-left: auto;
@@ -50,7 +51,7 @@ span{
 @media only screen and (min-width: 600px){ /* For tablets */
 	#cuadroAzul{
 		width: 40%;
-		height: 100vh;
+		height: 120vh;
 		background-image: linear-gradient(to bottom, #000080, #00BFFF);
 		font-size: 3vw;
 		color: #fff;
@@ -79,6 +80,7 @@ span{
 		padding-left: 2.5%;
 		font-size: 2.2vw;
 		word-wrap: break-word;
+		text-align: justify;
 	}
 	h3,h4{
 		text-align: center;
@@ -87,7 +89,7 @@ span{
 @media only screen and (min-width: 1000px){ /* For desktop */
 	#cuadroAzul{
 		width: 20%;
-		height: 100vh;
+		height: 120vh;
 		background-image: linear-gradient(to bottom, #000080, #00BFFF);
 		font-size: 1.2vw;
 		color: #fff;
@@ -97,7 +99,7 @@ span{
 	}
 	#fotoPerfil{
 		width: 70%;
-		height: 18.5%;
+		height: 15%;
 		border-radius: 5px;
 		padding-left: 30%;
 	}
@@ -115,8 +117,10 @@ span{
 		width: 80%;
 		padding-left: 2.5%;
 		font-size: 1.1vw;
+		text-align: justify;
 	}
 	h3,h4{
 		text-align: center;
 	}
 }
+
